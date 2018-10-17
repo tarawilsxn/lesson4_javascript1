@@ -4,8 +4,8 @@
        <!--
           Course:  Web Application Development
           Assignment:  Lesson 4 (JavaScript 1)
-          Author:  
-          Date:   
+          Author:  Tara Wilson
+          Date:   October 15, 2018
           Filename: index.html
        -->
        <meta charset="utf-8" />
@@ -50,7 +50,28 @@
                             <input type="text" id="foodInput" name="food" />
                           </label>
                       </p>
-
+                      <p><label for="householdInput">
+                            Household (utilities, cell phone, cable, maintenance, etc.):
+                            <input type="text" id="householdInput" name="household" />
+                          </label>
+                      </p>
+                      <p><label for="transportationInput">
+                            Transportation (public transportation, parking, gas, etc.):
+                            <input type="text" id="transportationInput" name="transportation" />
+                          </label>
+                      </p>
+                      <p><label for="miscellaneousInput">Miscellaneous (magazines, childcare, etc.):<input type="text" id="miscellaneousInput" name="miscellaneous"/>
+                            </label>
+                            
+                        </p>
+                        <!--
+                      <p><label for="miscellaneousInput">
+                            Miscellaneous (magazines, childcare, etc.):
+                            <input type="text" id="miscellaneousInput" name="miscellaneous" />
+                          </label>
+                          
+                      </p>
+                        -->
                       <!--************************************************************************************************
                       * Task #1:  Add additional expense categories using the above code as an example.  The 
                       *           following categories should be included:  Household, Transportation, and 
@@ -102,7 +123,7 @@
                 *  The onClick event will execute when a button is clicked.
                 **************************************************************************************************-->
                 <fieldset id="calculatebutton">
-                  <button type="button" onclick="calculatePercentages()"> Convert Expense $ to % </button>
+                  <button type="button" onclick="calculatePercentages()"> Convert Expenses $ to % </button>
                   <button type="reset" onclick="clearForm()"> Clear Form </button>
                 </fieldset> 
             </form>    
